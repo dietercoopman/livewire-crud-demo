@@ -56,7 +56,10 @@
                     </select>
                 </td>
             </tr>
+            <tr><td colspan="6">visit my site : <a href="https://dietse.dev" target="_blank">dietse.dev</a><td></tr>
             Total number of users : {{ $totalUsers }} , total number of marbles {{ $totalmarbles }} marbles
+
+
         </table>
     </div>
 
