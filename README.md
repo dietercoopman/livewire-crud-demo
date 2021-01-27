@@ -7,12 +7,9 @@ Inside the folder you've checked out you run these commands
 
 ````shell
 composer install
+cp .env.example .env
+php artisan key:generate
 ./vendor/bin/sail up
-````
-
-if your sail is up you run these commands in terminal
-
-````shell
 php artisan migrate
 php artisan db:seed
 ````
