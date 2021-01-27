@@ -1,5 +1,4 @@
 # livewire-crud-demo
-<<<<<<< HEAD
 A demo crud application 
 =======
 The easiest way to run this code is to install Docker desktop.
@@ -16,4 +15,3 @@ if your sail is up you run these commands in terminal
 php artisan migrate
 php artisan db:seed
 ````
->>>>>>> 5cd7098 (laravel livewire crud demo)
