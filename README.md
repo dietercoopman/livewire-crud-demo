@@ -14,8 +14,8 @@ Inside the folder you've checked out you run these commands
 ````shell
 composer install
 cp .env.example .env
-php artisan key:generate
-php artisan migrate
-php artisan db:seed
 ./vendor/bin/sail up
+sail artisan key:generate
+sail artisan migrate
+sail artisan db:seed
 ````
