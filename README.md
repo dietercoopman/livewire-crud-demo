@@ -9,6 +9,10 @@ if you don't have docker desktop you can install it via homebrew
 brew cask install docker
 ````
 
+or download it via 
+
+https://www.docker.com/products/docker-desktop
+
 Inside the folder you've checked out you run these commands
 
 ````shell
