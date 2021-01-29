@@ -25,6 +25,10 @@ Inside the folder you've checked out you run these commands
 composer install
 cp .env.example .env
 ./vendor/bin/sail up
+````
+Open a new terminal tab
+
+````shell 
 ./vendor/bin/sail artisan key:generate
 ./vendor/bin/sail artisan migrate
 ./vendor/bin/sail artisan db:seed
