@@ -16,7 +16,7 @@ https://www.docker.com/products/docker-desktop
 Git clone the project 
 
 ````shell
-https://github.com/dietercoopman/livewire-crud-demo.git
+git clone https://github.com/dietercoopman/livewire-crud-demo.git
 ````
 
 Inside the folder you've checked out you run these commands
