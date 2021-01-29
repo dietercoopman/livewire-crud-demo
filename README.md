@@ -13,6 +13,11 @@ or download it via
 
 https://www.docker.com/products/docker-desktop
 
+Start docker
+````shell
+osascript -e 'tell application "Docker Desktop" to open'
+````
+
 Git clone the project 
 
 ````shell
@@ -22,6 +27,7 @@ git clone https://github.com/dietercoopman/livewire-crud-demo.git
 Inside the folder you've checked out you run these commands
 
 ````shell
+
 composer install
 cp .env.example .env
 ./vendor/bin/sail up
